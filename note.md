@@ -1,4 +1,4 @@
-for range(begin,end) 实际上是左开右闭的
+for range(begin,end) 实际上是左闭右开的
 pycharm中灰色为无用处等
 list可以使用反向索引 结尾为-1 向前为-2等
 python中常见sum() len()
