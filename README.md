@@ -1,1 +1,1 @@
-a hub to learn python
+my record of python use
