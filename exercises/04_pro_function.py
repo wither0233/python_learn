@@ -20,9 +20,10 @@ def price_calculate(*args:tuple[str,float,int],discounts_paper = 0,discounts_poi
     total = 0
     for good_name,good_price,good_amount in args:
         total += good_price * good_amount
-    if(total >= 5000):
+    if total >= 5000:
         total =total - discounts_point * 0.01 - discounts_paper
-    if(total >= 0):return total
+    if total >= 0:
+        return total
     else:return 0
 
 if __name__ == '__main__':
